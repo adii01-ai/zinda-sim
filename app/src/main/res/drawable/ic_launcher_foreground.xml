@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from the app icon art (designs/app-icon-source.png). 108 dp adaptive layer. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Ring track -->
+    <path
+        android:pathData="M54,31.23 A22.77,22.77 0 1,1 54,76.77 A22.77,22.77 0 1,1 54,31.23"
+        android:strokeWidth="2.93"
+        android:strokeColor="#D4F8EF"
+        android:strokeAlpha="0.26"
+        android:fillColor="#00000000" />
+    <!-- Days-left arc -->
+    <path
+        android:pathData="M57.68,31.53 A22.77,22.77 0 1,1 32.28,47.15"
+        android:strokeWidth="2.93"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="54" android:startY="31.23"
+                android:endX="54" android:endY="76.77"
+                android:startColor="#E6FBF6"
+                android:endColor="#C0EEE5" />
+        </aapt:attr>
+    </path>
+    <!-- SIM card with chip cut-outs -->
+    <path
+        android:pathData="M45.5,39.93 L57.61,39.93 A1.4,1.4 0 0,1 58.6,40.34 L64.67,46.41 A1.4,1.4 0 0,1 65.08,47.4 L65.08,64.72 A3.35,3.35 0 0,1 61.73,68.07 L46.27,68.07 A3.35,3.35 0 0,1 42.92,64.72 L42.92,42.51 A2.58,2.58 0 0,1 45.5,39.93 Z M48.45,49.2 L52.05,49.2 L52.05,53.3 A0.5,0.5 0 0,1 51.55,53.8 L46.2,53.8 L46.2,51.45 A2.25,2.25 0 0,1 48.45,49.2 Z M52.75,49.2 L59.55,49.2 A2.25,2.25 0 0,1 61.8,51.45 L61.8,53.8 L53.25,53.8 A0.5,0.5 0 0,1 52.75,53.3 L52.75,49.2 Z M46.2,54.5 L50,54.5 A0.5,0.5 0 0,1 50.5,55 L50.5,59.6 A0.5,0.5 0 0,1 50,60.1 L46.2,60.1 L46.2,54.5 Z M51.7,54.5 L56.3,54.5 A0.5,0.5 0 0,1 56.8,55 L56.8,59.6 A0.5,0.5 0 0,1 56.3,60.1 L51.7,60.1 A0.5,0.5 0 0,1 51.2,59.6 L51.2,55 A0.5,0.5 0 0,1 51.7,54.5 Z M58,54.5 L61.8,54.5 L61.8,60.1 L58,60.1 A0.5,0.5 0 0,1 57.5,59.6 L57.5,55 A0.5,0.5 0 0,1 58,54.5 Z M46.2,60.8 L51.55,60.8 A0.5,0.5 0 0,1 52.05,61.3 L52.05,64.8 L48.45,64.8 A2.25,2.25 0 0,1 46.2,62.55 L46.2,60.8 Z M53.25,60.8 L61.8,60.8 L61.8,62.55 A2.25,2.25 0 0,1 59.55,64.8 L52.75,64.8 L52.75,61.3 A0.5,0.5 0 0,1 53.25,60.8 Z"
+        android:fillType="evenOdd"
+        android:fillColor="#FFFFFFFF" />
+</vector>

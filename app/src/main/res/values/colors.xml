@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window background only (shown before Compose draws). Tokens live in ui/theme/Color.kt. -->
+    <color name="background">#F4F6F3</color>
+    <color name="primary">#0E6B5F</color>
+</resources>

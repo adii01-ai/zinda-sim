@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Numbers use %s, never %d: %d prints the locale's digits (Marathi: २८), while rings,
+         dates and prices show 0-9. %s with an Int always gives 0-9, so numbers match everywhere. -->
+    <string name="app_name" translatable="false">SIM Keeper</string>
+
+    <!-- Carriers: plain text only, never logos -->
+    <string name="carrier_jio" translatable="false">Jio</string>
+    <string name="carrier_airtel" translatable="false">Airtel</string>
+    <string name="carrier_vi" translatable="false">Vi</string>
+    <string name="carrier_bsnl" translatable="false">BSNL</string>
+    <string name="carrier_other">Other</string>
+
+    <!-- Common -->
+    <string name="action_next">Next</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_save">Save</string>
+    <string name="action_save_and_finish">Save and finish</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="action_done">Done</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_not_now">Not now</string>
+    <string name="action_back">Back</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_more">More options</string>
+    <string name="action_open_details">Open details</string>
+    <string name="action_settings">Settings</string>
+    <string name="i_recharged">I recharged</string>
+    <string name="money_rupees">₹%1$s</string>
+    <string name="money_unknown">₹—</string>
+    <string name="no_amount">—</string>
+    <string name="today">Today</string>
+    <string name="separator_dot" translatable="false">" · "</string>
+
+    <!-- Days ring -->
+    <string name="ring_days">DAYS</string>
+    <plurals name="ring_days_a11y">
+        <item quantity="one">%s day left</item>
+        <item quantity="other">%s days left</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="one">%s day left</item>
+        <item quantity="other">%s days left</item>
+    </plurals>
+    <plurals name="days_left_label">
+        <item quantity="one">day left</item>
+        <item quantity="other">days left</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="one">day ago</item>
+        <item quantity="other">days ago</item>
+    </plurals>
+    <plurals name="days_count">
+        <item quantity="one">%s day</item>
+        <item quantity="other">%s days</item>
+    </plurals>
+    <plurals name="plan_length">
+        <item quantity="one">%s-day plan</item>
+        <item quantity="other">%s-day plan</item>
+    </plurals>
+
+    <!-- Status lines (colour is never the only signal) -->
+    <string name="status_all_good">All good</string>
+    <plurals name="status_recharge_in">
+        <item quantity="one">Recharge in %s day</item>
+        <item quantity="other">Recharge in %s days</item>
+    </plurals>
+    <string name="status_recharge_today">Recharge today</string>
+    <plurals name="status_use_in">
+        <item quantity="one">Use it within %s day to keep it active</item>
+        <item quantity="other">Use it within %s days to keep it active</item>
+    </plurals>
+    <string name="status_use_today">Use it today to keep it active</string>
+    <plurals name="status_ended_ago">
+        <item quantity="one">Plan ended %s day ago</item>
+        <item quantity="other">Plan ended %s days ago</item>
+    </plurals>
+    <string name="status_word_safe">safe</string>
+    <string name="status_word_needs_recharge">needs recharge</string>
+    <string name="status_word_expired">plan ended</string>
+
+    <!-- SIM card -->
+    <string name="card_slot_line">Slot %1$s · ends %2$s</string>
+    <string name="card_family_line">Family SIM · ends %1$s</string>
+    <string name="card_ends_line">Ends %1$s</string>
+    <string name="card_cheapest_plan">Cheapest plan to stay active</string>
+    <string name="card_plan_price">%1$s · %2$s</string>
+    <!-- "Bank SIM, Airtel, 2 days left, ends 21 October 2026, needs recharge" -->
+    <string name="card_a11y">%1$s, %2$s, %3$s, ends %4$s, %5$s</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">Never lose your number again</string>
+    <string name="onboarding_1_body">Your bank OTPs, UPI and WhatsApp depend on that second SIM. SIM Keeper makes sure it never gets switched off.</string>
+    <string name="onboarding_2_title">Every SIM, one glance</string>
+    <string name="onboarding_2_body">See how many days each SIM has left, and get a reminder 7, 3 and 1 day before it runs out.</string>
+    <string name="onboarding_3_title">Private by design</string>
+    <string name="onboarding_3_body" formatted="false">Works 100% offline. No login, no account. Your data never leaves your phone.</string>
+    <string name="onboarding_get_started">Get started</string>
+    <string name="onboarding_page_a11y">Page %1$s of %2$s</string>
+
+    <!-- Permission -->
+    <string name="permission_title">One small permission</string>
+    <string name="permission_body">SIM Keeper can read your SIM carrier name and slot to set things up automatically.</string>
+    <string name="permission_card_title">Read SIM carrier name</string>
+    <string name="permission_card_body">Used only to identify your SIMs. Nothing else is accessed.</string>
+    <string name="permission_manual">Add SIMs by hand instead</string>
+
+    <!-- SIMs detected -->
+    <plurals name="sims_detected">
+        <item quantity="one">%s SIM detected</item>
+        <item quantity="other">%s SIMs detected</item>
+    </plurals>
+    <string name="detected_title">Name your SIMs</string>
+    <string name="detected_subtitle">A short name helps you remember what each number is for.</string>
+    <string name="detected_none_title">No SIMs found</string>
+    <string name="detected_none_body">We could not read a SIM on this phone. You can add your SIMs by hand.</string>
+    <string name="sim_slot">SIM slot %1$s</string>
+    <string name="auto_detected">Auto-detected</string>
+    <string name="name_daily_sim">Daily SIM</string>
+    <string name="name_bank_sim">Bank SIM</string>
+    <string name="name_work">Work</string>
+    <string name="name_custom">Custom…</string>
+    <string name="name_field_label">SIM name</string>
+    <string name="track_family_sim">Track a family member\'s SIM</string>
+    <string name="add_sim_by_hand">Add a SIM by hand</string>
+
+    <!-- Set validity -->
+    <string name="validity_step">%1$s of %2$s</string>
+    <string name="validity_carrier_slot">%1$s · slot %2$s</string>
+    <string name="validity_plan_question">How long is your plan?</string>
+    <string name="validity_days">days</string>
+    <string name="validity_custom">Custom</string>
+    <string name="validity_custom_label">Plan length in days</string>
+    <string name="validity_recharge_question">When did you last recharge?</string>
+    <string name="validity_1_week_ago">1 week ago</string>
+    <string name="validity_3_weeks_ago">3 weeks ago</string>
+    <string name="validity_1_month_ago">1 month ago</string>
+    <string name="validity_pick_date">Pick date</string>
+    <string name="validity_exact_end">I know the exact end date</string>
+    <string name="validity_use_recharge_date">I know when I last recharged</string>
+    <string name="validity_end_question">When does your plan end?</string>
+    <string name="validity_preview_ends">Plan ends on</string>
+    <string name="validity_preview_ended">Plan ended on</string>
+    <string name="validity_used_question">When did you last use this SIM?</string>
+    <string name="validity_used_hint">A call, SMS or data counts as use.</string>
+    <string name="validity_custom_error">Enter 1 to 3650 days</string>
+
+    <!-- Add SIM -->
+    <string name="add_sim_title">Add a SIM</string>
+    <string name="add_sim_carrier">Carrier</string>
+    <string name="add_sim_carrier_name">Carrier name</string>
+    <string name="add_sim_family">This SIM is in someone else\'s phone</string>
+    <string name="add_sim_owner">Owner name</string>
+    <string name="add_sim_owner_hint">For example, Mummy</string>
+    <string name="add_sim_name_error">Enter a name</string>
+    <string name="add_sim_save">Save SIM</string>
+
+    <!-- Home -->
+    <string name="home_title">Your SIMs</string>
+    <plurals name="home_banner_needs_recharge">
+        <item quantity="one">%s SIM needs a recharge soon</item>
+        <item quantity="other">%s SIMs need a recharge soon</item>
+    </plurals>
+    <string name="home_banner_all_safe">All your SIMs are safe</string>
+    <string name="home_section_sims">Your SIMs</string>
+    <string name="home_section_family">Family</string>
+    <string name="home_add_sim">Add SIM</string>
+    <string name="home_safe_till">%1$s is safe till %2$s</string>
+    <string name="empty_title">No SIMs added yet</string>
+    <string name="empty_body">Add your first SIM to start tracking expiry dates and reminders.</string>
+    <string name="empty_action">Add your first SIM</string>
+    <string name="notifications_rationale">Allow notifications so SIM Keeper can remind you before a SIM needs a recharge.</string>
+
+    <!-- Battery guide (Xiaomi, Oppo, Vivo, Realme, OnePlus) -->
+    <string name="battery_title">Keep reminders on time</string>
+    <string name="battery_body">Some %1$s phones stop apps running in the background. Allow SIM Keeper to run in the background so reminders arrive.</string>
+    <string name="battery_action">Open settings</string>
+    <string name="battery_dismiss">Dismiss</string>
+
+    <!-- SIM detail -->
+    <string name="detail_recharge_by">Recharge by %1$s</string>
+    <string name="detail_use_by">Use it by %1$s</string>
+    <string name="detail_ended_on">Plan ended on %1$s</string>
+    <string name="detail_consequence">After that, outgoing calls and data stop. Your OTPs may stop soon after.</string>
+    <string name="detail_no_use_consequence">A SIM that is not used for 90 days can be switched off. A call, SMS or some data keeps it active.</string>
+    <string name="detail_expired_suffix">Recharge soon to keep your number.</string>
+    <string name="detail_plan_ends">Plan ends</string>
+    <string name="detail_no_use_limit">90-day no-use limit</string>
+    <string name="detail_used_today">I used it today</string>
+    <string name="detail_used_updated">Updated</string>
+    <string name="detail_cheapest_plan">Cheapest plan to stay active</string>
+    <string name="detail_prices_as_of">Prices as of %1$s</string>
+    <string name="detail_check_carrier_app">Check your carrier app</string>
+    <string name="detail_plans_title">Cheapest plans for %1$s</string>
+    <string name="detail_plans_body">Recharge in your carrier app, a UPI app or at a shop. SIM Keeper does not sell recharges.</string>
+    <string name="detail_remind_me">Remind me</string>
+    <string name="remind_7_days">7 days</string>
+    <string name="remind_3_days">3 days</string>
+    <string name="remind_1_day">1 day</string>
+    <string name="remind_on_day">On the day</string>
+    <string name="detail_history">History</string>
+    <string name="detail_history_empty">No recharges yet</string>
+    <string name="detail_see_all">See all</string>
+    <string name="detail_show_less">Show less</string>
+    <string name="detail_delete">Delete SIM</string>
+    <string name="detail_delete_title">Delete %1$s?</string>
+    <string name="detail_delete_body">This removes the SIM, its reminders and its recharge history from this phone.</string>
+
+    <!-- Recharged confirmation -->
+    <string name="recharged_title">Recharged!</string>
+    <plurals name="recharged_body">
+        <item quantity="one">Your %1$s SIM is safe for %2$s more day.</item>
+        <item quantity="other">Your %1$s SIM is safe for %2$s more days.</item>
+    </plurals>
+    <string name="recharged_new_end">New plan ends on</string>
+    <string name="recharged_amount">Amount paid (optional)</string>
+    <string name="recharged_amount_prefix">₹</string>
+    <string name="recharged_plan_length">Plan length</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_share_title">Check your parents\' SIMs</string>
+    <string name="settings_share_body">Share SIM Keeper on WhatsApp</string>
+    <string name="settings_share_text">I use SIM Keeper to get a reminder before a SIM needs a recharge, so the number never gets switched off. It works offline, no login. %1$s</string>
+    <string name="settings_share_chooser">Share SIM Keeper</string>
+    <string name="play_store_url" translatable="false">https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_dynamic_color">Dynamic colour</string>
+    <string name="settings_dynamic_color_body">Use colours from your wallpaper</string>
+    <string name="settings_language">Language</string>
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_hindi" translatable="false">हिन्दी</string>
+    <string name="language_marathi" translatable="false">मराठी</string>
+    <string name="settings_reminders">Reminders</string>
+    <string name="settings_reminder_time">Reminder time</string>
+    <string name="settings_quiet_hours">Quiet hours</string>
+    <string name="settings_quiet_hours_body">No reminders 10 PM to 8 AM</string>
+    <string name="settings_your_data">Your data</string>
+    <string name="settings_backup">Back up to a file</string>
+    <string name="settings_restore">Restore from a file</string>
+    <string name="settings_coming_soon">Coming soon</string>
+    <string name="settings_privacy">Your data never leaves this phone</string>
+    <string name="settings_footer">Carrier rules last checked %1$s · Version %2$s</string>
+
+    <!-- Notifications -->
+    <string name="channel_reminders">Recharge reminders</string>
+    <string name="channel_reminders_body">Reminders a few days before a SIM needs a recharge</string>
+    <string name="channel_urgent">Urgent recharge reminders</string>
+    <string name="channel_urgent_body">Reminders 1 day before and on the day a SIM needs a recharge</string>
+    <string name="notif_title">%1$s (%2$s): %3$s</string>
+    <string name="notif_last_day">last day today</string>
+    <string name="notif_plan_ended">plan ended</string>
+    <string name="notif_body">Recharge by %1$s to keep your OTPs working.</string>
+    <string name="notif_body_today">Recharge today to keep your OTPs working.</string>
+    <string name="notif_body_no_use">Make a call, send an SMS or use some data by %1$s to keep it active.</string>
+    <string name="notif_body_no_use_today">Make a call, send an SMS or use some data today to keep it active.</string>
+    <string name="notif_body_grace">Recharge soon to keep your number.</string>
+    <string name="notif_remind_tomorrow">Remind me tomorrow</string>
+
+    <!-- Widgets -->
+    <string name="widget_all_title">My SIMs</string>
+    <plurals name="widget_needs_recharge">
+        <item quantity="one">%s needs recharge</item>
+        <item quantity="other">%s need recharge</item>
+    </plurals>
+    <string name="widget_days">days</string>
+    <string name="widget_tile_label">%1$s · %2$s</string>
+    <string name="widget_empty">No SIMs yet</string>
+    <string name="widget_all_description">All your SIMs at a glance</string>
+    <string name="widget_single_description">One SIM, one ring</string>
+    <string name="widget_config_title">Choose a SIM for this widget</string>
+</resources>

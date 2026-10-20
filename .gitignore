@@ -1,0 +1,19 @@
+*.iml
+.gradle/
+.kotlin/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+# Signing: never commit keystores or passwords
+*.jks
+*.keystore
+keystore.properties
+
+# JVM crash logs
+hs_err_pid*.log
+replay_pid*.log

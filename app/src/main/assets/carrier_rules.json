@@ -1,0 +1,11 @@
+{
+  "lastChecked": "2026-10-19",
+  "noUseLimitDays": 90,
+  "carriers": {
+    "JIO":    { "graceNote": "Jio usually keeps the number for about 90 days without a recharge.", "verified": false },
+    "AIRTEL": { "graceNote": "Airtel usually gives 15 more days after the 90-day period.",        "verified": false },
+    "VI":     { "graceNote": "Vi usually allows 90 days, then needs at least a ₹49 plan.",         "verified": false },
+    "BSNL":   { "graceNote": "BSNL usually allows up to 180 days.",                                "verified": false },
+    "OTHER":  { "graceNote": "Check with your carrier how long you have after expiry.",           "verified": false }
+  }
+}

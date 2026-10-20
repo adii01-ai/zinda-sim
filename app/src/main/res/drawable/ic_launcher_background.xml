@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from the app icon art (designs/app-icon-source.png). 108 dp adaptive layer. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="37.07" android:startY="11.22"
+                android:endX="70.93" android:endY="96.78"
+                android:startColor="#0D7F76"
+                android:endColor="#013F3B" />
+        </aapt:attr>
+    </path>
+</vector>

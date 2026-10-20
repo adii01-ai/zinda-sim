@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Marathi. DRAFT: needs native-speaker review before release (TASKS.md #22).
+    Keep the tone calm. Brand and carrier names stay in English.
+-->
+<resources>
+    <string name="carrier_other">इतर</string>
+
+    <string name="action_next">पुढे</string>
+    <string name="action_skip">वगळा</string>
+    <string name="action_continue">पुढे चला</string>
+    <string name="action_save">सेव्ह करा</string>
+    <string name="action_save_and_finish">सेव्ह करा आणि पूर्ण करा</string>
+    <string name="action_cancel">रद्द करा</string>
+    <string name="action_ok">ठीक आहे</string>
+    <string name="action_done">झाले</string>
+    <string name="action_undo">पूर्ववत करा</string>
+    <string name="action_delete">हटवा</string>
+    <string name="action_allow">परवानगी द्या</string>
+    <string name="action_not_now">आता नको</string>
+    <string name="action_back">मागे</string>
+    <string name="action_edit">बदला</string>
+    <string name="action_more">आणखी पर्याय</string>
+    <string name="action_open_details">तपशील उघडा</string>
+    <string name="action_settings">सेटिंग्ज</string>
+    <string name="i_recharged">मी रिचार्ज केले</string>
+    <string name="money_rupees">₹%1$s</string>
+    <string name="money_unknown">₹—</string>
+    <string name="no_amount">—</string>
+    <string name="today">आज</string>
+
+    <string name="ring_days">दिवस</string>
+    <plurals name="ring_days_a11y">
+        <item quantity="one">%s दिवस बाकी</item>
+        <item quantity="other">%s दिवस बाकी</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="one">%s दिवस बाकी</item>
+        <item quantity="other">%s दिवस बाकी</item>
+    </plurals>
+    <plurals name="days_left_label">
+        <item quantity="one">दिवस बाकी</item>
+        <item quantity="other">दिवस बाकी</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="one">दिवसापूर्वी</item>
+        <item quantity="other">दिवसांपूर्वी</item>
+    </plurals>
+    <plurals name="days_count">
+        <item quantity="one">%s दिवस</item>
+        <item quantity="other">%s दिवस</item>
+    </plurals>
+    <plurals name="plan_length">
+        <item quantity="one">%s दिवसाचा प्लॅन</item>
+        <item quantity="other">%s दिवसांचा प्लॅन</item>
+    </plurals>
+
+    <string name="status_all_good">सर्व ठीक आहे</string>
+    <plurals name="status_recharge_in">
+        <item quantity="one">%s दिवसात रिचार्ज करा</item>
+        <item quantity="other">%s दिवसांत रिचार्ज करा</item>
+    </plurals>
+    <string name="status_recharge_today">आज रिचार्ज करा</string>
+    <plurals name="status_use_in">
+        <item quantity="one">चालू ठेवण्यासाठी %s दिवसात वापरा</item>
+        <item quantity="other">चालू ठेवण्यासाठी %s दिवसांत वापरा</item>
+    </plurals>
+    <string name="status_use_today">चालू ठेवण्यासाठी आज वापरा</string>
+    <plurals name="status_ended_ago">
+        <item quantity="one">प्लॅन %s दिवसापूर्वी संपला</item>
+        <item quantity="other">प्लॅन %s दिवसांपूर्वी संपला</item>
+    </plurals>
+    <string name="status_word_safe">सुरक्षित</string>
+    <string name="status_word_needs_recharge">रिचार्ज आवश्यक</string>
+    <string name="status_word_expired">प्लॅन संपला</string>
+
+    <string name="card_slot_line">स्लॉट %1$s · %2$s ला संपेल</string>
+    <string name="card_family_line">कुटुंबाचे SIM · %1$s ला संपेल</string>
+    <string name="card_ends_line">%1$s ला संपेल</string>
+    <string name="card_cheapest_plan">चालू ठेवण्यासाठी सर्वात स्वस्त प्लॅन</string>
+    <string name="card_plan_price">%1$s · %2$s</string>
+    <string name="card_a11y">%1$s, %2$s, %3$s, %4$s ला संपेल, %5$s</string>
+
+    <string name="onboarding_1_title">तुमचा नंबर कधीही गमावू नका</string>
+    <string name="onboarding_1_body">तुमचे बँक OTP, UPI आणि WhatsApp त्या दुसऱ्या SIM वर अवलंबून असतात. ते कधीही बंद होणार नाही याची काळजी SIM Keeper घेते.</string>
+    <string name="onboarding_2_title">प्रत्येक SIM, एका नजरेत</string>
+    <string name="onboarding_2_body">प्रत्येक SIM चे किती दिवस बाकी आहेत ते पाहा, आणि संपण्याच्या 7, 3 आणि 1 दिवस आधी आठवण मिळवा.</string>
+    <string name="onboarding_3_title">पूर्णपणे खाजगी</string>
+    <string name="onboarding_3_body" formatted="false">100% ऑफलाइन चालते. लॉगिन नाही, अकाउंट नाही. तुमचा डेटा कधीही तुमच्या फोनबाहेर जात नाही.</string>
+    <string name="onboarding_get_started">सुरू करा</string>
+    <string name="onboarding_page_a11y">%2$s पैकी पान %1$s</string>
+
+    <string name="permission_title">फक्त एक छोटी परवानगी</string>
+    <string name="permission_body">आपोआप सेटअप करण्यासाठी SIM Keeper तुमच्या SIM च्या ऑपरेटरचे नाव आणि स्लॉट वाचू शकते.</string>
+    <string name="permission_card_title">SIM ऑपरेटरचे नाव वाचणे</string>
+    <string name="permission_card_body">फक्त तुमची SIM ओळखण्यासाठी. याशिवाय काहीही वाचले जात नाही.</string>
+    <string name="permission_manual">त्याऐवजी SIM स्वतः जोडा</string>
+
+    <plurals name="sims_detected">
+        <item quantity="one">%s SIM सापडले</item>
+        <item quantity="other">%s SIM सापडले</item>
+    </plurals>
+    <string name="detected_title">तुमच्या SIM ला नाव द्या</string>
+    <string name="detected_subtitle">छोटे नाव कोणता नंबर कशासाठी आहे हे लक्षात ठेवायला मदत करते.</string>
+    <string name="detected_none_title">एकही SIM सापडले नाही</string>
+    <string name="detected_none_body">या फोनमधील SIM वाचता आले नाही. तुम्ही SIM स्वतः जोडू शकता.</string>
+    <string name="sim_slot">SIM स्लॉट %1$s</string>
+    <string name="auto_detected">आपोआप सापडले</string>
+    <string name="name_daily_sim">रोजचे SIM</string>
+    <string name="name_bank_sim">बँक SIM</string>
+    <string name="name_work">काम</string>
+    <string name="name_custom">स्वतःचे नाव…</string>
+    <string name="name_field_label">SIM चे नाव</string>
+    <string name="track_family_sim">कुटुंबातील सदस्याचे SIM जोडा</string>
+    <string name="add_sim_by_hand">SIM स्वतः जोडा</string>
+
+    <string name="validity_step">%1$s / %2$s</string>
+    <string name="validity_carrier_slot">%1$s · स्लॉट %2$s</string>
+    <string name="validity_plan_question">तुमचा प्लॅन किती दिवसांचा आहे?</string>
+    <string name="validity_days">दिवस</string>
+    <string name="validity_custom">स्वतःचे</string>
+    <string name="validity_custom_label">प्लॅन किती दिवसांचा</string>
+    <string name="validity_recharge_question">शेवटचे रिचार्ज कधी केले?</string>
+    <string name="validity_1_week_ago">1 आठवड्यापूर्वी</string>
+    <string name="validity_3_weeks_ago">3 आठवड्यांपूर्वी</string>
+    <string name="validity_1_month_ago">1 महिन्यापूर्वी</string>
+    <string name="validity_pick_date">तारीख निवडा</string>
+    <string name="validity_exact_end">मला संपण्याची नेमकी तारीख माहीत आहे</string>
+    <string name="validity_use_recharge_date">मला शेवटचे रिचार्ज कधी केले ते माहीत आहे</string>
+    <string name="validity_end_question">तुमचा प्लॅन कधी संपतो?</string>
+    <string name="validity_preview_ends">प्लॅन संपेल</string>
+    <string name="validity_preview_ended">प्लॅन संपला</string>
+    <string name="validity_used_question">हे SIM शेवटचे कधी वापरले?</string>
+    <string name="validity_used_hint">कॉल, SMS किंवा डेटा, सगळे वापर म्हणून मोजले जाते.</string>
+    <string name="validity_custom_error">1 ते 3650 दिवस टाका</string>
+
+    <string name="add_sim_title">SIM जोडा</string>
+    <string name="add_sim_carrier">ऑपरेटर</string>
+    <string name="add_sim_carrier_name">ऑपरेटरचे नाव</string>
+    <string name="add_sim_family">हे SIM दुसऱ्याच्या फोनमध्ये आहे</string>
+    <string name="add_sim_owner">मालकाचे नाव</string>
+    <string name="add_sim_owner_hint">उदा., आई</string>
+    <string name="add_sim_name_error">नाव टाका</string>
+    <string name="add_sim_save">SIM सेव्ह करा</string>
+
+    <string name="home_title">तुमची SIM</string>
+    <plurals name="home_banner_needs_recharge">
+        <item quantity="one">%s SIM ला लवकरच रिचार्ज हवे आहे</item>
+        <item quantity="other">%s SIM ना लवकरच रिचार्ज हवे आहे</item>
+    </plurals>
+    <string name="home_banner_all_safe">तुमची सर्व SIM सुरक्षित आहेत</string>
+    <string name="home_section_sims">तुमची SIM</string>
+    <string name="home_section_family">कुटुंब</string>
+    <string name="home_add_sim">SIM जोडा</string>
+    <string name="home_safe_till">%1$s %2$s पर्यंत सुरक्षित आहे</string>
+    <string name="empty_title">अजून एकही SIM जोडलेले नाही</string>
+    <string name="empty_body">संपण्याच्या तारखा आणि आठवणी पाहण्यासाठी तुमचे पहिले SIM जोडा.</string>
+    <string name="empty_action">पहिले SIM जोडा</string>
+    <string name="notifications_rationale">नोटिफिकेशनना परवानगी द्या, म्हणजे SIM ला रिचार्जची गरज पडण्याआधी SIM Keeper तुम्हाला आठवण करून देईल.</string>
+
+    <string name="battery_title">आठवणी वेळेवर मिळवा</string>
+    <string name="battery_body">काही %1$s फोन बॅकग्राउंडमधील ॲप्स बंद करतात. आठवणी मिळत राहाव्यात म्हणून SIM Keeper ला बॅकग्राउंडमध्ये चालू द्या.</string>
+    <string name="battery_action">सेटिंग्ज उघडा</string>
+    <string name="battery_dismiss">बंद करा</string>
+
+    <string name="detail_recharge_by">%1$s पर्यंत रिचार्ज करा</string>
+    <string name="detail_use_by">%1$s पर्यंत वापरा</string>
+    <string name="detail_ended_on">प्लॅन %1$s ला संपला</string>
+    <string name="detail_consequence">त्यानंतर आउटगोइंग कॉल आणि डेटा बंद होतात. थोड्या वेळाने OTP सुद्धा येणे बंद होऊ शकते.</string>
+    <string name="detail_no_use_consequence">90 दिवस न वापरलेले SIM बंद होऊ शकते. एक कॉल, SMS किंवा थोडा डेटा ते चालू ठेवतो.</string>
+    <string name="detail_expired_suffix">तुमचा नंबर टिकवण्यासाठी लवकर रिचार्ज करा.</string>
+    <string name="detail_plan_ends">प्लॅन संपतो</string>
+    <string name="detail_no_use_limit">90 दिवस न वापरण्याची मर्यादा</string>
+    <string name="detail_used_today">मी आज वापरले</string>
+    <string name="detail_used_updated">अपडेट झाले</string>
+    <string name="detail_cheapest_plan">चालू ठेवण्यासाठी सर्वात स्वस्त प्लॅन</string>
+    <string name="detail_prices_as_of">%1$s च्या किमती</string>
+    <string name="detail_check_carrier_app">तुमच्या ऑपरेटरचे ॲप पाहा</string>
+    <string name="detail_plans_title">%1$s चे सर्वात स्वस्त प्लॅन</string>
+    <string name="detail_plans_body">तुमच्या ऑपरेटरच्या ॲपमधून, UPI ॲपमधून किंवा दुकानातून रिचार्ज करा. SIM Keeper रिचार्ज विकत नाही.</string>
+    <string name="detail_remind_me">आठवण करून द्या</string>
+    <string name="remind_7_days">7 दिवस</string>
+    <string name="remind_3_days">3 दिवस</string>
+    <string name="remind_1_day">1 दिवस</string>
+    <string name="remind_on_day">त्याच दिवशी</string>
+    <string name="detail_history">इतिहास</string>
+    <string name="detail_history_empty">अजून एकही रिचार्ज नाही</string>
+    <string name="detail_see_all">सर्व पाहा</string>
+    <string name="detail_show_less">कमी दाखवा</string>
+    <string name="detail_delete">SIM हटवा</string>
+    <string name="detail_delete_title">%1$s हटवायचे?</string>
+    <string name="detail_delete_body">यामुळे हे SIM, त्याच्या आठवणी आणि रिचार्जचा इतिहास या फोनमधून हटवला जाईल.</string>
+
+    <string name="recharged_title">रिचार्ज झाले!</string>
+    <plurals name="recharged_body">
+        <item quantity="one">तुमचे %1$s SIM पुढील %2$s दिवस सुरक्षित आहे.</item>
+        <item quantity="other">तुमचे %1$s SIM पुढील %2$s दिवस सुरक्षित आहे.</item>
+    </plurals>
+    <string name="recharged_new_end">नवीन प्लॅन संपेल</string>
+    <string name="recharged_amount">भरलेली रक्कम (ऐच्छिक)</string>
+    <string name="recharged_amount_prefix">₹</string>
+    <string name="recharged_plan_length">प्लॅन किती दिवसांचा</string>
+
+    <string name="settings_title">सेटिंग्ज</string>
+    <string name="settings_share_title">तुमच्या आई-वडिलांचे SIM तपासा</string>
+    <string name="settings_share_body">WhatsApp वर SIM Keeper शेअर करा</string>
+    <string name="settings_share_text">SIM Keeper रिचार्जची गरज पडण्याआधी आठवण करून देते, म्हणजे नंबर कधीही बंद होत नाही. हे ऑफलाइन चालते, लॉगिन लागत नाही. %1$s</string>
+    <string name="settings_share_chooser">SIM Keeper शेअर करा</string>
+    <string name="settings_appearance">दिसणे</string>
+    <string name="settings_theme">थीम</string>
+    <string name="settings_theme_system">सिस्टम</string>
+    <string name="settings_theme_light">लाइट</string>
+    <string name="settings_theme_dark">डार्क</string>
+    <string name="settings_dynamic_color">डायनॅमिक रंग</string>
+    <string name="settings_dynamic_color_body">वॉलपेपरचे रंग वापरा</string>
+    <string name="settings_language">भाषा</string>
+    <string name="settings_reminders">आठवणी</string>
+    <string name="settings_reminder_time">आठवणीची वेळ</string>
+    <string name="settings_quiet_hours">शांत वेळ</string>
+    <string name="settings_quiet_hours_body">रात्री 10 ते सकाळी 8 पर्यंत आठवणी नाहीत</string>
+    <string name="settings_your_data">तुमचा डेटा</string>
+    <string name="settings_backup">फाइलमध्ये बॅकअप घ्या</string>
+    <string name="settings_restore">फाइलमधून परत आणा</string>
+    <string name="settings_coming_soon">लवकरच येत आहे</string>
+    <string name="settings_privacy">तुमचा डेटा कधीही या फोनबाहेर जात नाही</string>
+    <string name="settings_footer">ऑपरेटर नियम शेवटचे %1$s ला तपासले · आवृत्ती %2$s</string>
+
+    <string name="channel_reminders">रिचार्ज आठवणी</string>
+    <string name="channel_reminders_body">SIM ला रिचार्जची गरज पडण्याआधी काही दिवस आठवणी</string>
+    <string name="channel_urgent">तातडीच्या रिचार्ज आठवणी</string>
+    <string name="channel_urgent_body">रिचार्जच्या 1 दिवस आधी आणि त्याच दिवशी आठवणी</string>
+    <string name="notif_title">%1$s (%2$s): %3$s</string>
+    <string name="notif_last_day">आज शेवटचा दिवस</string>
+    <string name="notif_plan_ended">प्लॅन संपला</string>
+    <string name="notif_body">OTP चालू राहण्यासाठी %1$s पर्यंत रिचार्ज करा.</string>
+    <string name="notif_body_today">OTP चालू राहण्यासाठी आज रिचार्ज करा.</string>
+    <string name="notif_body_no_use">हे चालू ठेवण्यासाठी %1$s पर्यंत एक कॉल, SMS किंवा थोडा डेटा वापरा.</string>
+    <string name="notif_body_no_use_today">हे चालू ठेवण्यासाठी आज एक कॉल, SMS किंवा थोडा डेटा वापरा.</string>
+    <string name="notif_body_grace">तुमचा नंबर टिकवण्यासाठी लवकर रिचार्ज करा.</string>
+    <string name="notif_remind_tomorrow">उद्या आठवण करा</string>
+
+    <string name="widget_all_title">माझी SIM</string>
+    <plurals name="widget_needs_recharge">
+        <item quantity="one">%s ला रिचार्ज हवे</item>
+        <item quantity="other">%s ना रिचार्ज हवे</item>
+    </plurals>
+    <string name="widget_days">दिवस</string>
+    <string name="widget_tile_label">%1$s · %2$s</string>
+    <string name="widget_empty">अजून एकही SIM नाही</string>
+    <string name="widget_all_description">तुमची सर्व SIM एका नजरेत</string>
+    <string name="widget_single_description">एक SIM, एक रिंग</string>
+    <string name="widget_config_title">या विजेटसाठी SIM निवडा</string>
+</resources>

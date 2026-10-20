@@ -1,0 +1,3 @@
+package com.simkeeper.app.domain.model
+
+enum class ThemeMode { SYSTEM, LIGHT, DARK }

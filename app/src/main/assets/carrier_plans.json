@@ -1,0 +1,9 @@
+{
+  "pricesAsOf": "2026-10",
+  "plans": [
+    { "carrier": "JIO",    "rupees": null, "days": 28, "note": "Cheapest plan with validity" },
+    { "carrier": "AIRTEL", "rupees": null, "days": 28, "note": "Cheapest plan with validity" },
+    { "carrier": "VI",     "rupees": null, "days": 28, "note": "Cheapest plan with validity" },
+    { "carrier": "BSNL",   "rupees": null, "days": 28, "note": "Cheapest plan with validity" }
+  ]
+}
